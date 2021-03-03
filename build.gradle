@@ -1,0 +1,17 @@
+plugins {
+	id 'java'
+}
+
+group = 'finnkuusisto'
+archivesBaseName = 'tinysound'
+version = '1.1.2'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.jcraft:jorbis:0.0.17'
+	implementation 'org.tritonus:tritonus_share:20041204'
+	implementation 'javazoom.vorbisspi:vorbisspi:1.0.3'
+}
